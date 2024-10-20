@@ -4,7 +4,7 @@ import empty from "../../../assets/emptyWishlist.png";
 
 const WishlistEmpty = () => {
   const buttonBgClass =
-    "bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition duration-300 ease-in-out mt-3";
+    "bg-green-600 text-white px-4 py-2 rounded-lg hover:bg-green-700 transition duration-300 ease-in-out mt-3";
 
   return (
     <div className="flex flex-col pt-2">
