@@ -153,7 +153,7 @@ const Help = () => {
         </div>
       </div>
       <div className="helpfaq">
-        <h2 className="">Most Frequently Queries</h2>
+        <h2 className="">Most Frequent Queries</h2>
         <ul>
           {questions.map((question, index) => (
             <li key={index}>
@@ -194,6 +194,32 @@ const faqData = [
     question: "Can I purchase items in bulk?",
     answer:
       "Yes, we offer bulk purchase discounts. Please contact our sales team for more information.",
+  },
+  {
+    question: "Are your products eco-friendly or sustainably sourced?",
+    answer: "At VigyBag, we are committed to sustainability and environmental responsibility. All our products are carefully curated to ensure they are eco-friendly and sourced from suppliers who prioritize sustainable practices. We believe in providing high-quality essentials that not only meet your needs but also contribute to a healthier planet. Each item reflects our dedication to reducing environmental impact and promoting a sustainable lifestyle. Thank you for supporting our mission!",
+  },
+  {
+    question: "Can I cancel my order?",
+    answer: "Yes, you can cancel your if it hasn't shipped yet.<br/> Otherwise, you may return it after delivery.",
+  },
+  {
+    question: "What if my order is delayed?",
+    answer: "If your order is delayed, we sincerely apologize for the inconvenience.<br/> Please check your email for updates or tracking information. If you need further assistance, feel free to contact our customer service team, and we’ll be happy to help resolve any issues.",
+  },
+  {
+    question: "How to contact customer support?",
+    answer: 
+      "1. Help assistance from VigyBot > Contact Support <br/> 2. Home Page > Scroll Down > Quick Links > Contact Us > Enter Your Details > Submit 'Send Message' > Check Email for further notice > Unnecessary empty spaces removed",
+  },
+  {
+    question: "When will I receive my Refund?",
+    answer: 
+      "The refund amout is transferred within 5-7 business days to the respective mode of payment. <br/> Incase of any delay, kindly contact the customer support and provide your Order-ID",
+  },
+  {
+    question: "Why am I unable to place order? <br/> or <br/> Why is my order getting rejected?",
+    answer: "There may be multiple reasons: <br/> 1.Issue in Login/Account Details <br/> 2.Payment Authentication isssues <br/> 3. Payment Timeout",
   },
   {
     question: "What payment methods do you accept?",

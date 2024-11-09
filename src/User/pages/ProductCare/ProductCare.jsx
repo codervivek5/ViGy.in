@@ -22,6 +22,7 @@ const ProductCareInstructionsPage = () => {
           <ul className="list-disc list-inside text-gray-700 space-y-2 sm:space-y-4">
             <li>Store in a cool, dry place away from direct sunlight.</li>
             <li>Avoid exposing the product to extreme temperatures or humidity.</li>
+            <li>Use within limits and handle carefully to prevent strain and accidental damage.</li>
             <li>Regularly check for signs of wear and address any issues promptly.</li>
             <li>Follow any specific instructions provided by the manufacturer.</li>
           </ul>
@@ -35,9 +36,11 @@ const ProductCareInstructionsPage = () => {
             </p>
             <ul className="list-disc list-inside text-gray-700 space-y-2 sm:space-y-4">
               <li>Inspect the product regularly for any signs of damage.</li>
+              <li>Keep software and firmware updated for peak performance and enhanced security.</li>
               <li>Lubricate moving parts if applicable, using recommended products.</li>
               <li>Replace any worn or damaged components promptly.</li>
               <li>Consult the product manual for specific maintenance recommendations.</li>
+              <li>Maintain accuracy and safety by using approved parts and recalibrating regularly.</li>
             </ul>
           </div>
         </section>

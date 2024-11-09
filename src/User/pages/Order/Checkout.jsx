@@ -44,7 +44,7 @@ const CheckoutForm = () => {
               style={{ border: "2px solid green", padding: "13px 13px", borderRadius: "10px" }}>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
                 <div>
-                  <label className="block mb-1 font-medium">Name</label>
+                  <label className="block mb-1 font-medium">Customer Name</label>
                   <input
                     type="text"
                     name="name"
@@ -54,7 +54,7 @@ const CheckoutForm = () => {
                   />
                 </div>
                 <div>
-                  <label className="block mb-1 font-medium">Mobile No</label>
+                  <label className="block mb-1 font-medium">Customer Contact No</label>
                   <input
                     type="text"
                     name="mobile"
@@ -65,7 +65,7 @@ const CheckoutForm = () => {
                 </div>
               </div>
               <div className="mb-4">
-                <label className="block mb-1 font-medium">Email Address</label>
+                <label className="block mb-1 font-medium">Customer Email Address</label>
                 <input
                   type="email"
                   name="email"
@@ -126,7 +126,7 @@ const CheckoutForm = () => {
                   onChange={handleChange}
                   className="mr-2"
                 />
-                <label className="font-medium">Make Default Address</label>
+                <label className="font-medium">Set Default Address</label>
               </div>
               <button
                 type="submit"

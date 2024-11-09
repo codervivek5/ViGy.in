@@ -34,8 +34,8 @@ const CancellationPage = () => {
             <option value="no_longer_needed">Item no longer needed</option>
             <option value="poor_service">Poor customer service</option>
             <option value="high_shipping">High shipping costs</option>
-            <option value="product_quality">Concerns about product quality</option>
-            <option value="change_circumstances">Change in personal circumstances</option>
+            <option value="product_quality">Received Damaged Product</option>
+            <option value="change_circumstances">Relocation or Health Issue</option>
             <option value="others">Others</option>
           </select>
           {reason === 'others' && (

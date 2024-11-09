@@ -204,15 +204,16 @@ const Home = () => {
               <h2
                 className="text-[25px] sm:text-2xl md:text-[33px] font-semibold mb-6"
                 style={{ lineHeight: "1.5" }}>
-                Your Eco-Friendly Shopping Heaven
+                Elevate your Eco Essentials with STYLE!!!
               </h2>
               <p
                 className="mb-6 text-gray-700 text-[20px] sm:text-[23px]"
                 style={{ lineHeight: "1.5" }}>
-                At VigyBag, we curate the finest earth-friendly essentials to
-                help you reduce your environmental footprint without
-                compromising on quality or style. Shop smart, live green, and
-                embrace a sustainable future with VigyBag.
+                At VigyBag, we curate premium, earth-friendly
+                essentials designed to help you reduce your environmental footprint
+                without sacrificing style or quality. Embrace a sustainable
+                lifestyle with confidence. Shop smart, live green, and transform
+                your everyday choices into a brighter, eco-friendly future!
               </p>
               <button
                 type="button"
@@ -306,7 +307,7 @@ const Home = () => {
                       fontSize: "16px",
                       marginBottom: "20px",
                     }}>
-                    Subscribe to our newsletter to receive exclusive updates,
+                    Subscribe to our newsletter for exclusive updates,
                     promotions, and tips.
                   </p>
                   <form onSubmit={handleSubscribe}>
