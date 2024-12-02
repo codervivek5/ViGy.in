@@ -114,6 +114,31 @@ const Subtotal = ({ items }) => {
 };
 
 const ProceedToCheckout = () => {
+  const [couponCode, setCouponCode] = useState('');
+  const buttonBgClass = 'bg-blue-500 text-white'; // Adjust this as per your styling
+
+  const validateCoupon = async () => {
+    try {
+      const response = await fetch('/api/verify-coupon', { // Replace with your actual API endpoint
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({ couponId: couponCode }),
+      });
+
+      const result = await response.json();
+      if (!response.ok) {
+        throw new Error(result.message || 'Invalid coupon code'); // Handle response error
+      }
+
+      // Proceed with the valid coupon code logic
+      alert('Coupon applied successfully!'); // You can replace this with your success handling
+
+    } catch (error) {
+      alert(error.message); // Alert the user with the error message
+    }
+  };
   return (
     <div className="mt-6">
       <div className="mt-4 flex flex-col sm:flex-row space-y-2 sm:space-y-0 sm:space-x-2">
@@ -121,8 +146,14 @@ const ProceedToCheckout = () => {
           type="text"
           placeholder="Enter coupon code"
           className="p-2 border border-gray-300 rounded-md w-full"
+          value={couponCode}
+          onChange={(e) => setCouponCode(e.target.value)} // Update coupon code state
         />
-        <button type="button" className={`${buttonBgClass} w-full sm:w-auto`}>
+        <button 
+          type="button" 
+          className={`${buttonBgClass} w-full sm:w-auto`}
+          onClick={validateCoupon} // Call validateCoupon on button click
+        >
           Redeem
         </button>
       </div>

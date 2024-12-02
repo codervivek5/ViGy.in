@@ -19,6 +19,12 @@ const productSchema = new Schema({
     type: Number,
     required: true,
   },
+  couponId: {
+    type: String,
+    required: true,
+    unique: true,
+    match: /^[A-Z0-9]{6,10}$/  // Adjust regex to your requirements
+  },
 });
 
 const Product = mongoose.model("Product", productSchema);
