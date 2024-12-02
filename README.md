@@ -75,6 +75,8 @@ Technologies Used :
 - ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
 - ![Vite](https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white)
 - ![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white)
+- kotlin
+- jetpack compose
   ### 🎥 Video Introduction
 
 [![Watch the video](https://img.youtube.com/vi/FeHQVTiYVxQ/0.jpg)](https://www.youtube.com/watch?v=FeHQVTiYVxQ)
