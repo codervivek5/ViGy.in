@@ -20,7 +20,7 @@
     "emailjs-com": "^3.2.0",
     "express": "^4.19.2",
     "file-saver": "^2.0.5",
-    "firebase": "^10.13.1",
+    "firebase": "^11.2.0",
     "framer-motion": "^11.11.9",
     "fuse.js": "^7.0.0",
     "helmet": "^7.1.0",
